@@ -1,0 +1,29 @@
+from numpy import *
+
+my_numbers = (8, 12, 16, 24, 4)
+
+my_numbers_mean = 12.8
+
+#subtracting mean from each member of list then squaring. Add each result to get variance
+23.04 + 0.64 + 10.24 + 144 + 64 = 241.92
+
+#Square root variance to get SD
+#square root of 241.92 = 15.55 
+SD = 241.92
+
+
+##Now with NUMPY!##
+
+import numpy as np
+
+my_num_array = np.array([8, 12, 16, 24, 4])
+print(sum(my_num_array))
+
+
+def find_SD(num_array):
+    """finds the standard deviation from an array of numbers"""
+    variances = ()
+    for x in num_array:
+        num_array[x]
+
+
